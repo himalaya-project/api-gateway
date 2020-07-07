@@ -8,14 +8,15 @@ public class ClientEndpoints extends BaseEndpointBuilder {
     }
 
     public URI fetchClient(String clientId) {
-        return baseEndpoint.path("/client/{clientId}").build(clientId);
+        // TODO REVIEW
+        return baseEndpoint.cloneBuilder().path("/client/{clientId}").build(clientId);
     }
 
     public URI registerClient() {
-        return baseEndpoint.path("/client").build().toUri();
+        return baseEndpoint.cloneBuilder().path("/client").build().toUri();
     }
 
     public URI unregisterClient(String clientId) {
-        return baseEndpoint.path("/client/{clientId}").build(clientId);
+        return baseEndpoint.cloneBuilder().path("/client/{clientId}").build(clientId);
     }
 }

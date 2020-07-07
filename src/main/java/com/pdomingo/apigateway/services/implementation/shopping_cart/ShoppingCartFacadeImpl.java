@@ -1,11 +1,11 @@
 package com.pdomingo.apigateway.services.implementation.shopping_cart;
 
-import com.pdomingo.apigateway.composition.facades.ShoppingCartFacade;
-import com.pdomingo.apigateway.composition.implementation.ProxyHelper;
-import com.pdomingo.apigateway.composition.implementation.shopping_cart.views.ShoppingCardIds;
-import com.pdomingo.apigateway.composition.implementation.shopping_cart.views.ShoppingCartProducts;
 import com.pdomingo.apigateway.configuration.endpoints.CatalogEndpoints;
 import com.pdomingo.apigateway.configuration.endpoints.ShoppingCartEndpoints;
+import com.pdomingo.apigateway.services.facades.ShoppingCartFacade;
+import com.pdomingo.apigateway.services.implementation.ProxyHelper;
+import com.pdomingo.apigateway.services.implementation.shopping_cart.views.ShoppingCardIds;
+import com.pdomingo.apigateway.services.implementation.shopping_cart.views.ShoppingCartProducts;
 import com.pdomingo.apigateway.web.shoppingcart.model.ShoppingCartComposedView;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

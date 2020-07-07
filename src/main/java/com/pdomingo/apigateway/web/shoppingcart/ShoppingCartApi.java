@@ -1,7 +1,6 @@
 package com.pdomingo.apigateway.web.shoppingcart;
 
-
-import com.pdomingo.apigateway.composition.facades.ShoppingCartFacade;
+import com.pdomingo.apigateway.services.facades.ShoppingCartFacade;
 import com.pdomingo.apigateway.web.shoppingcart.model.ShoppingCartComposedView;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

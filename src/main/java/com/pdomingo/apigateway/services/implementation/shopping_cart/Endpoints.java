@@ -1,4 +1,4 @@
-package com.pdomingo.apigateway.composition.implementation.shopping_cart;
+package com.pdomingo.apigateway.services.implementation.shopping_cart;
 
 public final class Endpoints {
 }

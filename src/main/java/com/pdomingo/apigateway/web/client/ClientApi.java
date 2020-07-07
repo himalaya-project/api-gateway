@@ -1,6 +1,6 @@
 package com.pdomingo.apigateway.web.client;
 
-import com.pdomingo.apigateway.composition.facades.ClientFacade;
+import com.pdomingo.apigateway.services.facades.ClientFacade;
 import com.pdomingo.apigateway.web.client.model.ClientComposedView;
 import com.pdomingo.apigateway.web.client.model.ClientRegistrationRequest;
 import lombok.RequiredArgsConstructor;

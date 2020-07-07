@@ -1,6 +1,6 @@
 package com.pdomingo.apigateway.web.shoppingcart.model;
 
-import com.pdomingo.apigateway.composition.implementation.shopping_cart.views.ShoppingCartProducts;
+import com.pdomingo.apigateway.services.implementation.shopping_cart.views.ShoppingCartProducts;
 import org.javamoney.moneta.Money;
 
 import javax.money.MonetaryAmount;
